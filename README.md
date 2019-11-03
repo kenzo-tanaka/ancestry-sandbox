@@ -1,24 +1,6 @@
-# README
+# 概要
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+- ancestryというgemを使って、動的なセレクトボックスを実装
+- 解説: https://qiita.com/kenzoukenzou104809/items/07f6b5f7fdcf2761ac8f
 
-Things you may want to cover:
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
