@@ -61,6 +61,10 @@ class ProductsController < ApplicationController
     end
   end
 
+  def dynamic_select_category
+    @category = Category.find(params[:category_id])
+  end
+
   private
     # Use callbacks to share common setup or constraints between actions.
     def set_product
