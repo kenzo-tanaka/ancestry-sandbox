@@ -21,7 +21,21 @@
     <%= form.text_area :description %>
   </div>
 
-  <div class="actions">
-    <%= form.submit %>
+  <div class="field">
+    <%= form.label :description %>
+    <%= form.text_area :description %>
   </div>
+
+<div class="actions">
+  <select id="video_category_ids" name="video[category_ids]">
+    <% @parent_categories.each do |c| %>
+      <option><%= c.name %></option>
+    <% end %>
+  </select>
+  <select id="video_category_ids" name="video[category_ids]">
+    <% @default_child_categories.each do |c| %>
+      <option><%= c.name %></option>
+    <% end %>
+  </select>
+</div>
 <% end %>
